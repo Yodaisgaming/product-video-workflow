@@ -50,7 +50,7 @@ def build(light=True):
 
 def main():
     if len(sys.argv) < 3:
-        sys.exit("usage: finalize_output.py <raw> <out> [dur] [light|flat]")
+        sys.exit("usage: finalize_output.py <raw> <out> [dur] [light|dark]")
     raw = sys.argv[1]
     out = sys.argv[2]
     dur = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] not in ("", "none") else None

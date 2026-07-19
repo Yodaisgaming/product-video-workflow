@@ -25,7 +25,7 @@ Researched against the current tool landscape (see `RESEARCH.md`). Short version
 1. **`scripts/record_live.py`** — logs into your deployed app and drives real interactions with
    Playwright, injecting:
    - a decorative smooth cursor + click ripple (headless Chromium renders no pointer),
-   - a `de-brand` replacer that redacts client identifiers from text nodes, input values and
+   - a `de-brand` replacer that redacts identifiers you don't want published from text nodes, input values and
      common attributes (`placeholder`/`title`/`alt`/`aria-label`), re-applied both on an interval
      and on DOM mutations. Best-effort by design: it covers on-screen text, not raster content
      (logos, faces, images) — review the output before publishing,
