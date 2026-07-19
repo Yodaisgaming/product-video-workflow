@@ -1,0 +1,7 @@
+{
+  "substitutions": [
+    ["you@example\\.com", "studio@demo", "gi"],
+    ["@example\\.com", "@demo", "gi"],
+    ["\\b(Acme Corp|Acme|Example Brand|Real Client Name)\\b", "Demo Brand", "g"]
+  ]
+}

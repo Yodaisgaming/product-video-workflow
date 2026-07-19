@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# real de-brand map (copy debrand.example.json -> debrand.json)
+scripts/debrand.json
+
+# capture + render artifacts
+out/
+rec_*/
+*.webm
+marks.json
+cam.json
