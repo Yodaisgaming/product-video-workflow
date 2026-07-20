@@ -12,14 +12,15 @@ The output is one short (~10-15s) `.mp4` per section, sized for autoplay-muted-l
 
 ## Example output
 
-Both example clips were captured live from a real deployed app, de-branded during capture, then
-finished with the post-zoom camera and the framed backdrop. The inline previews are animated WebP;
-click through for the actual `.mp4` renders: the hero clip above is
-[demo-compose.mp4](assets/demo-compose.mp4), and here is a second flow:
+Both example clips were captured live from real pages, then finished with the post-zoom camera and
+the framed backdrop. The hero clip above (a real deployed app, de-branded during capture; the
+inline preview is animated WebP) is [demo-compose.mp4](assets/demo-compose.mp4). The second clip is
+the demo of [visual-feedback](https://github.com/Yodaisgaming/visual-feedback), a click-annotate
+Chrome extension, captured on a public site with this same workflow:
 
-**Library setup — reusable building blocks** ([demo-building-blocks.mp4](assets/demo-building-blocks.mp4))
+**Annotating a live page** (from the [visual-feedback](https://github.com/Yodaisgaming/visual-feedback) repo)
 
-[![Building blocks demo](assets/demo-building-blocks.webp)](assets/demo-building-blocks.mp4)
+![Annotation demo](assets/demo-annotate.webp)
 
 ## Why this approach
 
