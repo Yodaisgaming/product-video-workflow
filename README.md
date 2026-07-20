@@ -1,22 +1,21 @@
 # Product Demo Video Workflow
 
+[![Compose demo](assets/demo-compose.webp)](assets/demo-compose.mp4)
+
 A no-install pipeline for turning a **real web app** into polished, "playable" product-demo
-videos for a landing page. The UI is captured live (real DOM, real interactions), de-branded,
-then finished with a smooth synthetic cursor, zoom-to-click, a framed backdrop, and click sounds
-synced to the actual interactions. Built on **Playwright + ffmpeg + Pillow** — nothing to install
-beyond those.
+videos for a landing page — the clip above was produced end to end by this repo. The UI is
+captured live (real DOM, real interactions), de-branded, then finished with a smooth synthetic
+cursor, zoom-to-click, a framed backdrop, and click sounds synced to the actual interactions.
+Built on **Playwright + ffmpeg + Pillow** — nothing to install beyond those.
 
 The output is one short (~10-15s) `.mp4` per section, sized for autoplay-muted-loop embedding.
 
 ## Example output
 
-Two clips produced end to end with this pipeline — captured live from a real deployed app, de-branded
-during capture, then finished with the post-zoom camera and the framed backdrop. The previews below
-are compressed animated WebP; click through for the actual `.mp4` renders.
-
-**Compose — one screen, single pass** ([demo-compose.mp4](assets/demo-compose.mp4))
-
-[![Compose demo](assets/demo-compose.webp)](assets/demo-compose.mp4)
+Both example clips were captured live from a real deployed app, de-branded during capture, then
+finished with the post-zoom camera and the framed backdrop. The inline previews are animated WebP;
+click through for the actual `.mp4` renders: the hero clip above is
+[demo-compose.mp4](assets/demo-compose.mp4), and here is a second flow:
 
 **Library setup — reusable building blocks** ([demo-building-blocks.mp4](assets/demo-building-blocks.mp4))
 
