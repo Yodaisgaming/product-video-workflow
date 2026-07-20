@@ -8,6 +8,20 @@ beyond those.
 
 The output is one short (~10-15s) `.mp4` per section, sized for autoplay-muted-loop embedding.
 
+## Example output
+
+Two clips produced end to end with this pipeline — captured live from a real deployed app, de-branded
+during capture, then finished with the post-zoom camera and the framed backdrop. The previews below
+are compressed animated WebP; click through for the actual `.mp4` renders.
+
+**Compose — one screen, single pass** ([demo-compose.mp4](assets/demo-compose.mp4))
+
+[![Compose demo](assets/demo-compose.webp)](assets/demo-compose.mp4)
+
+**Library setup — reusable building blocks** ([demo-building-blocks.mp4](assets/demo-building-blocks.mp4))
+
+[![Building blocks demo](assets/demo-building-blocks.webp)](assets/demo-building-blocks.mp4)
+
 ## Why this approach
 
 Researched against the current tool landscape (see `RESEARCH.md`). Short version:
